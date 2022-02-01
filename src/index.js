@@ -9,3 +9,7 @@ import App from './App';
 // <Reactstrict.mode <app (self-closing) </strict
 // doc get el by id root
 // );
+ReactDOM.render(
+    <React.StrictMode><App /></React.StrictMode>,
+    document.getElementById('root')
+);
