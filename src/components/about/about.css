@@ -1,0 +1,11 @@
+.left-side {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.right-side {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+}
