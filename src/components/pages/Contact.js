@@ -71,6 +71,11 @@ function Contact() {
                     <input value={message} type="text" name="message" onChange={handleChange} className="form-control" id="formGroupExampleInput" placeholder="Message" />
                 </div>
             </form>
+            {errorMessage && (
+                <div>
+                    <p className="error-text" style={{ color: "red" }}>{errorMessage}</p>
+                </div>
+            )}
         </div>
     );
 }
