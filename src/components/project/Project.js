@@ -20,26 +20,27 @@ function Project() {
             </a>
             <section className="other-projects">
                 <a href="https://www.youtube.com/watch?v=Xc_GST9Am94&feature=youtu.be." target="_blank" rel="noreferrer">
+                    <h4 className="title">E-Commerce Back End</h4>
                     <img src={eCommerce} className="other-images" alt="e-Commerce database" />
                     <section className="e-commerce">
-                        <header>E-Commerce Back-End</header>
 
                     </section>
                 </a>
                 <a href="https://peaceful-reef-89877.herokuapp.com/" target="_blank" rel="noreferrer">
                     <img src={noteTaker} className="other-images" alt="Note Taker" />
+                    <h4 className="title">Note Taker App</h4>
                     <section className="note-taker">
-                        <header>Note Taker App</header>
                     </section>
                 </a>
                 <a href="https://github.com/Valllerian/Gentle-Tilly/" target="_blank" rel="noreferrer">
                     <img src={gentleTilly} className="other-images" alt="gentle tilly" />
+                    <h4 className="title">Gentle Tilly!</h4>
                     <section className="gentle-tilly">
-                        <header>Gentle Tilly!</header>
                     </section>
                 </a>
                 <a href="https://www.youtube.com/watch?v=66R85GNfabY" target="_blank" rel="noreferrer">
                     <img src={employeeTracker} className="other-images" alt="employee tracker" />
+                    <h4 className="title">Employee Database Tracker</h4>
                     <section className="employee-tracker">
                         <header>Employee Database Tracker</header>
                     </section>
