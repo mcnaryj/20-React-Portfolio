@@ -1,18 +1,32 @@
+.projects {
+    width: 20rem;
 
-.card {
-    display: inline-flex;
+    display: grid;
+    grid-template-columns: 25rem 25rem 25rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5%;
     flex-wrap: wrap;
-    width:  25em;
-    height: 250px;
-    align-items: center;
-    border: solid 5px black;
-    margin-left: 10%;
-    margin-bottom: 10px;
-    object-fit: cover;
-
+    margin-bottom: 5%;
 }
 
-.marvellisms:hover, .e-commerce:hover, .note-taker:hover, .gentle-tilly:hover, .employee-tracker:hover {
-    font-size: 100%;
-    box-shadow: 0 0 10px #000 inset;
+.first-image {
+    width: 25rem;
+    padding: 10%;
+
+}
+h6 {
+    font-size: larger;
+    text-align: center;
+}
+.body {
+    background: #2a3439;
+    color: #EDF5E1;
+    width: 25rem;
+    padding: 5%;
+    text-align: center;
+}
+
+.body a {
+    font-size: smaller;
+    text-align: center;
 }
