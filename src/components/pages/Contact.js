@@ -1,5 +1,7 @@
 import React from 'react';
-
+import { validateEmail } from '../../utils/helpers';
+import emailjs from '@emailjs/browser';
+function Contact
 const Contact = () => {
     return (
         <div>

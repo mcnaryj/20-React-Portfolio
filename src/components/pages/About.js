@@ -5,7 +5,7 @@ import profilePic from '../../images/big-sky.png'
 const About = () => {
     return (
         <div >
-            <div style={{ backgroundImage: `url(${require("../../images/background-color.png").default})` }}>
+            <div style={{ backgroundImage: `url(${require("../../images/background-color.png")})` }}>
 
                 < div className="about-container" >
                     <div className="about-child">
