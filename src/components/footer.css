@@ -1,4 +1,4 @@
-.nav {
+footer {
     height: 10vh;
     background-color: #2a3439;
     width: 100%;
@@ -6,16 +6,15 @@
     align-items: center;
 }
 
-.nav-item, a {
+footer li  {
     color: #c2bdb0;
     font-size: 1.75rem;
     font-family: 'Open Sans Condensed', sans-serif;
     display: inline-flex;
     justify-content: space-evenly;
     padding: 5%;
-    margin-left: 5%;
+    margin-left: 10%;
     text-decoration: none;
     white-space: nowrap;
-    flex-wrap: wrap;
 }
 

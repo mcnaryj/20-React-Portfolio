@@ -25,13 +25,13 @@ const Resume = () => {
             </div>
             <div className='resume-child'>
                 <h1>Education</h1>
-                <p>University of Denver Coding Bootcamp,    Certificate, completion date February 2022</p>
+                <p>University of Denver Coding Bootcamp, Certificate, completion date February 2022</p>
                 <p> University of Colorado, Boulder, CO, B.A., International Affairs, Minor in Portuguese, December 2014</p>
                 <h1>Volunteerism</h1>
-                <ul>Creek-path clean-up campaign (self-directed), Boulder, CO, December 2021-Ongoing</ul>
-                <ul>Wilderness Restoration Fund, Boulder County, CO, Ongoing</ul>
-                <ul>University of Colorado Recycling Center, Boulder, CO, May-July 2012</ul>
-                <ul>Volunteer Ski Patrol, Winter Park Ski Resort, Winter Park, CO, August 2010-December 2012</ul>
+                <p>Creek-path clean-up campaign (self-directed), Boulder, CO, December 2021-Ongoing</p>
+                <p>Wilderness Restoration Fund, Boulder County, CO, Ongoing</p>
+                <p>University of Colorado Recycling Center, Boulder, CO, May-July 2012</p>
+                <p>Volunteer Ski Patrol, Winter Park Ski Resort, Winter Park, CO, August 2010-December 2012</p>
                 <h2>What I Offer</h2>
                 <ul>• Excellent communication skills, both verbal and written</ul>
                 <ul>• Team player, who enjoys building trust with my colleagues and developing robust client relationships</ul>
