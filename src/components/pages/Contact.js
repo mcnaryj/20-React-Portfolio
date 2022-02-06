@@ -1,9 +1,9 @@
 import React, { useRef, useState } from 'react';
-import { validateEmail } from '../../utils/helpers';
 import emailjs from '@emailjs/browser';
 
-function Contact() {
+import { validateEmail } from '../../utils/helpers';
 
+function Contact() {
 
     const form = useRef();
     // useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the full lifetime of the component.
@@ -33,10 +33,12 @@ function Contact() {
                 setUserName(inputValue);
             }
         }
-        else if (!inputValue.length) {
-            setErrorMessage('You gotta leave something here for me to read!');
-        } else {
-            setMessage(inputValue);
+        else {
+            if (!inputValue.length) {
+                setErrorMessage('You gotta leave something here for me to read!');
+            } else {
+                setMessage(inputValue);
+            }
         }
     };
     function sendEmail(e) {
@@ -63,8 +65,8 @@ function Contact() {
                     <input value={userName} type="text" name="userName" onChange={handleChange} className="form-control" id="formGroupExampleInput" placeholder="Name" />
                 </div>
                 <div className="mb-3">
-                    <label for="formGroupExampleInput" className="form-label">Email</label>
-                    <input value={email} type="text" name="email" onChange={handleChange} className="form-control" id="formGroupExampleInput" placeholder="Email" />
+                    <label for="formGroupExampleInput2" className="form-label">Email</label>
+                    <input value={email} type="email" name="email" onChange={handleChange} className="form-control" id="formGroupExampleInput2" placeholder="Email" />
                 </div>
                 <div className="mb-3">
                     <label for="formGroupExampleInput" className="form-label">Message</label>
