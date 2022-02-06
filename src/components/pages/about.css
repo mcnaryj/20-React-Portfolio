@@ -1,0 +1,22 @@
+.about-container {
+    border: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-child {
+    width: 45%;
+    float: left;
+    text-align: center;
+}  
+
+.paragraph {
+    margin: 5%;
+}
+
+.name {
+    margin-top: 10%;
+}
+
+.paragraph, .title  {
+    margin-top: 5%;
+}

@@ -1,0 +1,18 @@
+
+.card {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width:  25em;
+    height: 250px;
+    align-items: center;
+    border: solid 5px black;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    object-fit: cover;
+
+}
+
+.marvellisms:hover, .e-commerce:hover, .note-taker:hover, .gentle-tilly:hover, .employee-tracker:hover {
+    font-size: 100%;
+    box-shadow: 0 0 10px #000 inset;
+}

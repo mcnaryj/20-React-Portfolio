@@ -4,6 +4,7 @@ import gentleTilly from '../../images/gentle-tilly.png'
 import noteTaker from '../../images/Note-Taker.png'
 import employeeTracker from '../../images/Employee-tracker.png'
 import eCommerce from '../../images/E-Commerce.png'
+import './projects.css';
 
 // import css
 function Project() {

@@ -1,0 +1,12 @@
+.resume-container {
+    border: 2px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.resume-child {
+    width: 40%;
+    float: left;
+    padding: 5%;
+    text-align: left;
+}  
+
