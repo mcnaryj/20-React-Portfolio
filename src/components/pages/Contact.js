@@ -19,11 +19,12 @@ function Contact() {
         const inputValue = target.value;
 
         if (inputType === 'email') {
+            e.preventDefault();
+            (!e.target.value.length) ? setEmail("Email is required") : setEmail(inputValue);
+
             validateEmail(inputValue);
             if (!validateEmail(inputValue)) {
                 setErrorMessage('Please enter a valid email');
-            } else {
-                setEmail(inputValue);
             }
         }
         else if (inputType === 'user_name') {
