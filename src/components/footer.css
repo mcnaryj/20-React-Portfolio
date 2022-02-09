@@ -13,7 +13,7 @@ footer li  {
     display: inline-flex;
     justify-content: space-evenly;
     padding: 5%;
-    margin-left: 10%;
+    margin-left: 5rem;
     text-decoration: none;
     white-space: nowrap;
 }

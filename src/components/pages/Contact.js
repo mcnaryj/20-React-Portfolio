@@ -18,7 +18,7 @@ function Contact() {
         const inputType = target.name;
         const inputValue = target.value;
 
-        if (inputType === 'your_email') {
+        if (inputType === 'email') {
             validateEmail(inputValue);
             if (!validateEmail(inputValue)) {
                 setErrorMessage('Please enter a valid email');
@@ -66,7 +66,7 @@ function Contact() {
                 </div>
                 <div className="mb-3">
                     <label for="formGroupExampleInput2" className="form-label">Email</label>
-                    <input value={email} type="text" name="your_email" onChange={handleChange} className="form-control" id="formGroupExampleInput2" placeholder="Your email" />
+                    <input value={email} type="text" name="email" onChange={handleChange} className="form-control" id="formGroupExampleInput2" placeholder="Your email" />
                 </div>
                 <div className="mb-3">
                     <label for="formGroupExampleInput" className="form-label">Message</label>

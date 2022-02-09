@@ -3,6 +3,7 @@
 
     display: grid;
     grid-template-columns: 25rem 25rem 25rem;
+    grid-gap: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 5%;
     flex-wrap: wrap;
