@@ -18,15 +18,15 @@ function Contact() {
         const inputType = target.name;
         const inputValue = target.value;
 
-        if (inputType === 'email') {
+        if (inputType === 'user_email') {
             validateEmail(inputValue);
             if (!validateEmail(inputValue)) {
-                setErrorMessage('Your email is invalid. Try again, ya dingus!');
+                setErrorMessage('Email is invalid');
             } else {
                 setEmail(inputValue);
             }
         }
-        else if (inputType === 'username') {
+        else if (inputType === 'user_name') {
             if (!inputValue.length) {
                 setErrorMessage('Give us a name then, why dontcha!');
             } else {
@@ -41,10 +41,10 @@ function Contact() {
             }
         }
     };
-    function sendEmail(e) {
+    const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_9uulvno', 'template_o0zd61p', e.target, form.current, 'user_9H4glZeBTGRx1ksFmdj8T')
+        emailjs.sendForm('service_9uulvno', 'template_o0zd61p', form.current, 'user_9H4glZeBTGRx1ksFmdj8T')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -62,15 +62,16 @@ function Contact() {
             <form ref={form} onSubmit={sendEmail}>
                 <div className="mb-3">
                     <label for="formGroupExampleInput" className="form-label">Name</label>
-                    <input value={userName} type="text" name="userName" onChange={handleChange} className="form-control" id="formGroupExampleInput" placeholder="Name" />
+                    <input value={userName} type="text" name="user_name" onChange={handleChange} className="form-control" id="formGroupExampleInput" placeholder="Name" />
                 </div>
                 <div className="mb-3">
                     <label for="formGroupExampleInput2" className="form-label">Email</label>
-                    <input value={email} type="email" name="email" onChange={handleChange} className="form-control" id="formGroupExampleInput2" placeholder="Email" />
+                    <input value={email} type="email" name="user_email" onChange={handleChange} className="form-control" id="formGroupExampleInput2" placeholder="Email" />
                 </div>
                 <div className="mb-3">
                     <label for="formGroupExampleInput" className="form-label">Message</label>
-                    <input value={message} type="text" name="message" onChange={handleChange} className="form-control" id="formGroupExampleInput" placeholder="Message" />
+                    <textarea value={message} name="message" onChange={handleChange} className="form-control" id="formGroupExampleInput" placeholder="Leave Message Here" />
+                    <input type="submit" value="Send Message" />
                 </div>
             </form>
             {errorMessage && (
