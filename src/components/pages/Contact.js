@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-
 import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
@@ -18,10 +17,10 @@ function Contact() {
         const inputType = target.name;
         const inputValue = target.value;
 
-        if (inputType === 'user_email') {
+        if (inputType === 'your_email') {
             validateEmail(inputValue);
             if (!validateEmail(inputValue)) {
-                setErrorMessage('Email is invalid');
+                setErrorMessage('Please enter a valid email');
             } else {
                 setEmail(inputValue);
             }
@@ -58,20 +57,20 @@ function Contact() {
 
     return (
         <div className="contactContainer">
-            <h1>Contact:</h1>
+            <h1>Contact Me:</h1>
             <form ref={form} onSubmit={sendEmail}>
                 <div className="mb-3">
                     <label for="formGroupExampleInput" className="form-label">Name</label>
-                    <input value={userName} type="text" name="user_name" onChange={handleChange} className="form-control" id="formGroupExampleInput" placeholder="Name" />
+                    <input value={userName} type="text" name="user_name" onChange={handleChange} className="form-control" id="formGroupExampleInput" placeholder="Your name" />
                 </div>
                 <div className="mb-3">
                     <label for="formGroupExampleInput2" className="form-label">Email</label>
-                    <input value={email} type="email" name="user_email" onChange={handleChange} className="form-control" id="formGroupExampleInput2" placeholder="Email" />
+                    <input value={email} type="text" name="your_email" onChange={handleChange} className="form-control" id="formGroupExampleInput2" placeholder="Your email" />
                 </div>
                 <div className="mb-3">
                     <label for="formGroupExampleInput" className="form-label">Message</label>
-                    <textarea value={message} name="message" onChange={handleChange} className="form-control" id="formGroupExampleInput" placeholder="Leave Message Here" />
-                    <input type="submit" value="Send Message" />
+                    <textarea value={message} name="message" onChange={handleChange} className="form-control" id="formGroupExampleInput" placeholder="Leave me a message!" />
+                    <input type="submit" value="Get me this message sent ok?" />
                 </div>
             </form>
             {errorMessage && (
