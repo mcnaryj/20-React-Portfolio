@@ -11,9 +11,9 @@ const Resume = () => {
             <div className='resume-child'><img src={straker} alt='my master' className='straker'></img></div>
 
             <h2>Proficiencies</h2>
-            <div>I'm not going to make some bold claim and say I am really proficient in any of the topics that we've discussed in this class, however I do feel comfortable operating within the MERN stack, specifically with Node.js, Express and somewhat with React.
+            <div>I feel comfortable operating within the MERN stack, specifically with Node.js, Express and somewhat with React.
             </div>
-            <div>Aside from that, I feel comfortable using HTML, CSS (if push came to shove, I would make this website look real nice, but it is simply not within my bandwidth right now given the other things I am currently pursuing in life), JavaScript, and I think I could learn most languages without too much difficulty.
+            <div> I like working between the front end and the back end, and I think that there is always going to be a need for someone who speaks developer!
             </div>
 
 

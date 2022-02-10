@@ -21,6 +21,7 @@ function Project() {
                     <div className='card-description'>The newest and coolest social network - Mark Zuckerberg, eat your robot-lizard heart out!</div>
                     <a href="https://watch.screencastify.com/v/xWw3HyvOnYrEolDr9ar9" target="_blank" rel="noreferrer">Check it out!
                     </a>
+                    <a href="https://github.com/mcnaryj/18-Social-Network-API" target="_blank" rel="noreferrer">And here's the repo!</a>
                 </div>
             </div>
             <div className="card" style={{ width: "10%" }}>
@@ -31,6 +32,7 @@ function Project() {
                         Marvel Database</div>
                     <a href="https://carlincb.github.io/Marvelisms/" target="_blank" rel="noreferrer">Check it out!
                     </a>
+                    <a href="https://github.com/carlincb/Marvelisms" target="_blank" rel="noreferrer">And here's the repo!</a>
                 </div>
             </div>
             <div className="card" style={{ width: "10%" }}>
@@ -40,6 +42,7 @@ function Project() {
                     <div className='card-description'>Keep track of your employees with this marvelous tracker.</div>
                     <a href="https://www.youtube.com/watch?v=66R85GNfabY" target="_blank" rel="noreferrer">Check it out!
                     </a>
+                    <a href="https://github.com/mcnaryj/12-Employee-Tracker" target="_blank" rel="noreferrer">And here's the repo!</a>
                 </div>
             </div>
             <div className="card" style={{ width: "10%" }}>
@@ -58,6 +61,7 @@ function Project() {
                     <div className='card-description'>Take hella notes with this note taker app!</div>
                     <a href="https://peaceful-reef-89877.herokuapp.com/" target="_blank" rel="noreferrer">Check it out!
                     </a>
+                    <a href="https://github.com/mcnaryj/11-Note-Taker" target="_blank" rel="noreferrer">And here's the repo!</a>
                 </div>
             </div>
             <div className="card" style={{ width: "10%" }}>
@@ -67,6 +71,7 @@ function Project() {
                     <div className='card-description'>The magick of eCommerce!</div>
                     <a href="https://www.youtube.com/watch?v=Xc_GST9Am94&feature=youtu.be." target="_blank" rel="noreferrer">Check it out!
                     </a>
+                    <a href="https://github.com/mcnaryj/13-E-Commerce-Back-End" target="_blank" rel="noreferrer">And here's the repo!</a>
                 </div>
             </div>
 

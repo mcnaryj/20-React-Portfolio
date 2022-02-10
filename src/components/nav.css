@@ -19,3 +19,7 @@
     flex-wrap: wrap;
 }
 
+.currentLink {
+    text-decoration: underline;
+    color:rgb(232, 247, 252);
+}

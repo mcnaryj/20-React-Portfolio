@@ -20,11 +20,11 @@ function Contact() {
 
         if (inputType === 'email') {
             e.preventDefault();
-            (!e.target.value.length) ? setEmail("Email is required") : setEmail(inputValue);
+            (!e.target.value.length) ? setEmail("Give us an email, then!") : setEmail(inputValue);
 
             validateEmail(inputValue);
             if (!validateEmail(inputValue)) {
-                setErrorMessage('Please enter a valid email');
+                setErrorMessage('Enter a valid email, por favor');
             }
         }
         else if (inputType === 'user_name') {
@@ -77,7 +77,7 @@ function Contact() {
             </form>
             {errorMessage && (
                 <div>
-                    <p className="error-text" style={{ color: "red" }}>{errorMessage}</p>
+                    <p className="error-text" style={{ color: "blue" }}>{errorMessage}</p>
                 </div>
             )}
         </div>
